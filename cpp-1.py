@@ -69,11 +69,11 @@ num = num // 10
 g = num % 10
 rev = a * 1000000 + b * 100000 + c * 10000 + d * 1000 + e * 100 + f * 10 + g
 print(f"Reversed number using sir's logic (without loop): {rev}")
-#num =123
-#a=num % 10
-#num = num // 10
-#b = num % 10
-#num = num // 10
-#c = num % 10
-#rev = a * 100 + b * 10 + c
-#print(f"Reversed number: {rev}")
+num =123
+a=num % 10
+num = num // 10
+b = num % 10
+num = num // 10
+c = num % 10
+rev = a * 100 + b * 10 + c
+print(f"Reversed number: {rev}")
