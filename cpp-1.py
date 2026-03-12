@@ -2,7 +2,6 @@
 
 val1 = input("Enter the First Value: ")
 val2 = input("Enter the Second Value: ")
-
 print("Before swapping:")
 print(f"First Value: {val1}")
 print(f"Second Value: {val2}")
