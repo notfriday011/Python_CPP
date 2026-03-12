@@ -1,30 +1,30 @@
-# mylist=["prashant","sachin","rohit","virat","dhoni",77,88,99,100,"sandeep",60.52]
-# print(mylist)
-# print(type(mylist)) 
-# print(mylist[0])
-# print(mylist[1])
-# print(mylist[2])
-# print(mylist[3])
-# print(mylist[4])
-# print(mylist[5])
-# print(mylist[-1])
-# print(mylist[2:5])
-# print(mylist[:5])
-# print(mylist[5:])
-# print(mylist[::2])
-# print(mylist[::-1])
-# print(mylist[1:8:2])
-# print(mylist[1:8:3])
+mylist=["prashant","sachin","rohit","virat","dhoni",77,88,99,100,"sandeep",60.52]
+print(mylist)
+ print(type(mylist)) 
+ print(mylist[0])
+ print(mylist[1])
+ print(mylist[2])
+ print(mylist[3])
+ print(mylist[4])
+ print(mylist[5])
+ print(mylist[-1])
+ print(mylist[2:5])
+ print(mylist[:5])
+ print(mylist[5:])
+ print(mylist[::2])
+ print(mylist[::-1])
+ print(mylist[1:8:2])
+ print(mylist[1:8:3])
 
 
 mylist = ["prashant", "sachin", "rohit", "virat", "dhoni", 77, 88, 99, 100, "sandeep", 60.52]
 
-mylist.append('kshitij')
-mylist.append("kshitij_panday")
+mylist.append('shreyas)
+mylist.append("shreyas_rananaware")
 print(mylist)
-mylist.insert(2, "panday")
+mylist.insert(2, "rananaware")
 print(mylist)
-mylist.remove("panday")
+mylist.remove("rananaware")
 print(mylist)
 newList = mylist.copy()
 print(newList)    
@@ -44,13 +44,13 @@ print(crazylist[2][2])
 
 
 
-list1=["Kshitij","Panday"]
+list1=["Shreyas","Rananaware"]
 print(list1*2)
 
 list2=[50,25.50]
 print(list1+list2)
 
-list1.remove("Panday")
+list1.remove("Rananaware")
 print(list1)
 
 list1.clear()
@@ -97,7 +97,7 @@ print(id(mylist))
 print(id(mylist1))
 
 
-name='Kshitij'
+name='Shreyas'
 print('Z' in name)
 print('K' in name)
 
@@ -105,18 +105,18 @@ print('K' in name)
 print('Z' not in name)
 
 
-#for i in range(1,6):
- #   print(i)
+for i in range(1,6):
+    print(i)
 
-#for i in range(6):
-#    print(i)
+for i in range(6):
+   print(i)
 
-# for i in range(1,10,3):{
+for i in range(1,10,3):{
 
-#     print(i)}
+     print(i)}
 
-# for i in range(10,0,-1):{
-#     print(i) }
+ for i in range(10,0,-1):{
+     print(i) }
 
 
 # for num in range(2, 11):
