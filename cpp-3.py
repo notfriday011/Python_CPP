@@ -35,9 +35,9 @@
 
 
 mydict = {
-    "name":"Kshitij",
+    "name":"Shreyas",
     "profession":"Student",
-    "age":20
+    "age":19
    
 }
 print(mydict)
@@ -45,7 +45,7 @@ print(type(mydict))
 
 
 mydict1 = {
-    101:"Kshitij",
+    101:"Shreyas",
     102:"Rahul",
     103:"Suresh",
     "104":"Ramesh",
@@ -66,13 +66,13 @@ print(mydict1)
 for x, y in mydict.items():
     print(x, y)
 
-mydict1["mobile_no"]= 8567890123
+mydict1["mobile_no"]= 7498756107
 print(mydict1)
 
-mydict1.pop("104")
+mydict1.pop("107")
 print(mydict1)
 
-name = "KshitijPanday"
+name = "ShreyasRananaware"
 print(name[0])
 print(name[1])
 print(name[-1])
@@ -86,7 +86,7 @@ s="help4code is a best platform for practicing python programming"
 print(s.find("help4code"))
 print(s.find("python"))
 print(s.find("programming"))
-print(s.find("KShitij"))
+print(s.find("Shreyas"))
 
 
 ss="Python is a high level programming language"
@@ -107,8 +107,8 @@ print(f"Total Marks: {phy + chem + math}")
 print("Roll No=", "7".zfill(4))
 
 
-print('KshitijPanday'.isalnum())
-print('KshitijPanday'.isalpha())
+print('ShreyasRananaware'.isalnum())
+print('ShreyasRananaware'.isalpha())
 print('12345'.isdigit())
 print('Hello World'.isupper())
 print('Hello World'.islower())
@@ -134,11 +134,11 @@ print(x==y)
 print(x==z)
 print(x !=z)
 
-name = "kshitij"
+name = "shreyas"
 for i in name:
     print(i)
 
-name="Kshitij"
+name="shreyas"
 data=['a','e','i','o','u']
 vowels=0
 con=0
