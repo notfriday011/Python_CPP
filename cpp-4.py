@@ -1,5 +1,5 @@
-# for i in range(1,5):
-#     if i ==3:
+ #for i in range(1,5):
+ #   if i ==3:
 #         continue
 #     print(i)
 
@@ -20,7 +20,7 @@
 # username = ""
 # password = ""
 
-# while username != "Kshitij_Panday" and password != "Kshitij123":
+# while username != "Shreyas_Rananaware" and password != "Shreyas123":
 #     username = input("Enter username: ")
 #     password = input("Enter password: ")
 
